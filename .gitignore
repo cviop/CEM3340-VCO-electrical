@@ -7,3 +7,6 @@ History/CEM3340_vco.~(1).PcbDoc.Zip
 *.fft
 *.raw
 *.imp
+Models/Jack_tht_6-3_datasheet_dims_v2.stp
+Models/Jack_tht_6-3_datasheet_dims.stp
+Models/Jack_tht_6-3.ipt
