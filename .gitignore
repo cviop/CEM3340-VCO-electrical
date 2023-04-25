@@ -4,3 +4,6 @@ History/CEM3340_vco.~(1).PcbDoc.Zip
 *.SchDocPreview
 *.LOG
 *.Zip
+*.fft
+*.raw
+*.imp
