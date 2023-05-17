@@ -1,0 +1,16 @@
+* C:\Users\dvorakj\Documents\GitHub\CEM3340-VCO-electrical\Draft1.asc
+V1 15V 0 15
+V2 12V 0 12
+V3 5V 0 5
+V4 -15V 0 -15
+R4 SAW_out N001 10k
+C1 SAW_out N001 10p
+XU1 N002 N001 15V -15V SAW_out LT1013
+V5 SAW_raw 0 PULSE(-5 5 1n 2.26m 1n 1n 2.26m)
+R1 N002 SAW_raw 10k
+R2 N002 5V 10k
+* SAW
+.tran 10m
+.lib LTC.lib
+.backanno
+.end
